@@ -10,7 +10,7 @@ const Header = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <a href="#home" className="text-2xl font-bold text-gray-800">
-            Portfolio
+            MAKALA VIGNESH
           </a>
           
           {/* Desktop Navigation */}
@@ -20,10 +20,10 @@ const Header = () => {
             <a href="#skills" className="text-gray-600 hover:text-gray-900">Skills</a>
             <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact</a>
             <div className="flex items-center space-x-4">
-              <a href="www.linkedin.com/in/makala-vignesh-7a101a25b" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/A-vi33" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5 text-gray-600 hover:text-gray-900" />
               </a>
-              <a href="https://github.com/A-vi33" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/makala-vignesh-7a101a25b" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5 text-gray-600 hover:text-gray-900" />
               </a>
               <a href="mailto:vigneshmakala@gmail.com">
