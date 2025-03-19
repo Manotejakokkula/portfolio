@@ -1,6 +1,6 @@
 import { ExternalLink, Github } from 'lucide-react';
 import CAR from '../assets/Car_Zone.png';
-import PET from '../assets/petstore.png';
+import PET from '../assets/Petstore.png';
 import PORT from '../assets/portfolio.png';
 
 const projects = [
