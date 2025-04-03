@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { Menu, X, Github, Linkedin, Mail } from 'lucide-react';
 import { useState } from 'react';
 
@@ -10,7 +10,7 @@ const Header = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <a href="#home" className="text-2xl font-bold text-gray-800">
-            MAKALA VIGNESH
+            KOKKULA MANOTEJA
           </a>
           
           {/* Desktop Navigation */}
@@ -20,13 +20,13 @@ const Header = () => {
             <a href="#skills" className="text-gray-600 hover:text-gray-900">Skills</a>
             <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact</a>
             <div className="flex items-center space-x-4">
-              <a href="https://github.com/A-vi33" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Manotejakokkula" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5 text-gray-600 hover:text-gray-900" />
               </a>
-              <a href="https://www.linkedin.com/in/makala-vignesh-7a101a25b" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/manoteja-kokkula-068b642b4/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5 text-gray-600 hover:text-gray-900" />
               </a>
-              <a href="mailto:vigneshmakala@gmail.com">
+              <a href="https://mail.google.com/mail/u/0/#inbox">
                 <Mail className="w-5 h-5 text-gray-600 hover:text-gray-900" />
               </a>
             </div>

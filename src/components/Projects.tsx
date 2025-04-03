@@ -1,22 +1,22 @@
 import { ExternalLink, Github } from 'lucide-react';
-import CAR from '../assets/Car_Zone.png';
-import PET from '../assets/Petstore.png';
-import PORT from '../assets/portfolio.png';
+import CAR from '../assets/Bicycle_zone.png';
+import PET from '../assets/petstore.png';
+import PORT from '../assets/portfolio (2).png';
 
 const projects = [
   {
-    title: 'Car_Zone',
-    description: 'A full-stack Car_Zone solution built with Django, Python, and Frontend.',
+    title: 'Bicycle_Zone',
+    description: 'A full-stack Bicycle_Zone solution built with Django, Python, and Frontend.',
     image: CAR,
     technologies: ['Django', 'Python', 'MYSQL', 'Frontend'],
-    githubLink: 'https://github.com/A-vi33/Car_Zone.git',
+    githubLink: 'https://github.com/Manotejakokkula/bicycle_project.git',
   },
   {
     title: 'petstore',
     description: 'PetStore is an academic project at Itvedant that allows users to buy pets.',
     image: PET,
     technologies: ['Frontend', 'MYSQL', 'Django', 'Python'],
-    githubLink: 'https://github.com/A-vi33/Petstore.git',
+    githubLink: 'https://github.com/Manotejakokkula/petstore.git',
   },
   {
     title: 'portfolio',

@@ -14,10 +14,10 @@ describe('Contact Component', () => {
     render(<Contact />);
     
     fireEvent.change(screen.getByLabelText(/name/i), {
-      target: { value: 'Makala Vignesh' },
+      target: { value: 'Kokkula Manoteja' },
     });
     fireEvent.change(screen.getByLabelText(/email/i), {
-      target: { value: 'vigneshmakala@gmail.com' },
+      target: { value: 'kokkulamanoteja@gmail.com' },
     });
     fireEvent.change(screen.getByLabelText(/message/i), {
       target: { value: 'Hello World' },
@@ -26,8 +26,8 @@ describe('Contact Component', () => {
     fireEvent.click(screen.getByText(/send message/i));
     
     expect(consoleSpy).toHaveBeenCalledWith('Form submitted:', {
-      name: 'Makala Vignesh',
-      email: 'vigneshmakala@gmail.com',
+      name: 'Kokkula Manoteja',
+      email: 'kokkulamanoteja@gmail.com',
       message: 'Hello World',
     });
   });

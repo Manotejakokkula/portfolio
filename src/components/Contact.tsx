@@ -31,11 +31,11 @@ const Contact = () => {
             <div className="space-y-4">
               <div className="flex items-center">
                 <Mail className="w-6 h-6 text-indigo-600 mr-4" />
-                <span className="text-gray-600">vigneshmakala@gmail.com</span>
+                <span className="text-gray-600">kokkulamanoteja@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <Phone className="w-6 h-6 text-indigo-600 mr-4" />
-                <span className="text-gray-600">+91 9390338255</span>
+                <span className="text-gray-600">+91 9603407299</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-6 h-6 text-indigo-600 mr-4" />
